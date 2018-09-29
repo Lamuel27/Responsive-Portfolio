@@ -6,8 +6,8 @@ body {font-family: 'Times New Roman', Times, serif;
 * {box-sizing: border-box;}
 
 header {
-    height: 55px;
-    padding: 10px;
+    height: 5.5%;
+    padding: 1%;
 }
 
 @media screen and (min-width:1px) and (max-width:1365px) {
@@ -16,30 +16,37 @@ header {
 @media screen and (min-width:1366px) {
 
 }
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (min-width: 600px) {
+    
+}
 
 h3 {
-        border-bottom: 2px solid teal;
+        border-bottom: .2% solid teal;
         color: teal;
-        font-size: 28px;
+        font-size: 2.5vw;
 }
 
 input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 1.2%;
+    border: .1% solid #ccc;
+    border-radius: .4%;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: .6%;
+    margin-bottom: 1.6%;
     resize: vertical;
 }
 
 input[type=submit] {
     background-color: teal;
     color: white;
-    padding: 12px 20px;
+    padding: 1.2% 2%;
     border: none;
-    border-radius: 4px;
+    border-radius: .4%;
     cursor: pointer;
 }
 
@@ -48,15 +55,15 @@ input[type=submit]:hover {
 }
 
 .container {
-    border-radius: 5px;
+    border-radius: .5%;
     background-color: #f2f2f2;
-    width: 960px;
+    width: 96%;
     position: static;
-    padding: 20px;
+    padding: 2%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 110px;
+    margin-top: 11%;
     margin-bottom: 100%;
 }
 
@@ -65,15 +72,15 @@ input[type=submit]:hover {
     left: 5%;
     background-color: teal;
     position: absolute;
-    width: 160px;
+    width: 16%;
     bottom: 0;
-    top: 20px;
+    top: 2%;
     float: left;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    font-size: x-large;
-    padding: 20px;
+    font-size: 2.5vw;
+    padding: 2%;
     margin-left: auto;
     margin-right: auto;
     vertical-align: middle;
@@ -83,8 +90,8 @@ input[type=submit]:hover {
     background-color: #ffffff;
     position: relative;
     text-align: right;
-    height: 100px;
-    padding: 35px;
+    height: 10%;
+    padding: 3.5%;
     border: #cccccc;
 }
 
@@ -96,19 +103,19 @@ input[type=submit]:hover {
 .Footer{
     border-style: solid;
     border-color: cadetblue;
-    border-width: 5px;
+    border-width: .5%;
     border-left: none;
     border-right: none;
     border-bottom: none;
     background-color: #666666;
     width: 100%;
-    height: 50px;
+    height: 5%;
     left: 0px;
     bottom: 0px;
     z-index: -1;
     text-align: center;
     color: white;
-    padding: 15px;
+    padding: 1.5%;
  }
 
 a:link {
@@ -116,34 +123,34 @@ a:link {
 }
 
 .profile {
-    border-radius: 5px;
+    border-radius: .5%;
     background-color: #f2f2f2;
-    width: 960px;
+    width: 96%;
     position: static;
-    padding: 10px;
+    padding: 1%;
     height: 20%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 110px;
-    padding-bottom: 40px;
-    margin-bottom: 100%;
+    margin-top: 11%;
+    padding-bottom: 4%;
+    margin-bottom: 10%;
 }
 
 img {
     float: left;
-    margin-right: 15px;
+    margin-right: 1.5%;
 }
 
   .portfolio {
-    border-radius: 5px;
+    border-radius: .5%;
     background-color: #f2f2f2;
-    width: 960px;
+    width: 96%;
     position: static;
-    padding: 20px;
+    padding: 2%;
     height: 1000px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 110px;
+    margin-top: 11%;
     margin-bottom: 100%;
   }
     .clearfix {
@@ -152,7 +159,7 @@ img {
 
      .picbox {
         width: 275px;
-        height: 200px;
+        height: 119px;
         margin: 40px 10px 40px 40px;
         float: left;
     } 
